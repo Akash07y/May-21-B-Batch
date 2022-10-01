@@ -39,11 +39,11 @@ public class TestClass1 {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\chromedriver_win32 (4)\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		if(browserName.equals("Firefox"))
-		{
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\geckodriver.exe");
-			driver = new FirefoxDriver();
-		}
+//		if(browserName.equals("Firefox"))
+//		{
+//			System.setProperty("webdriver.gecko.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\geckodriver.exe");
+//			driver = new FirefoxDriver();
+//		}
 		if(browserName.equals("Opera"))
 		{
 			System.setProperty("webdriver.opera.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\operadriver.exe");

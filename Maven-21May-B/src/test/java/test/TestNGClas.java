@@ -38,19 +38,19 @@ public class TestNGClas extends Base{
 	public void launchBrowser() {
 
 		String browserName = Utility.getExcelData(browser,2,3);
-		
-		if(browserName.equals("Chrome"))
-		{
-			driver = openChromeBrowser();
-		}
-		if(browserName.equals("Firefox"))
-		{
-			driver = openFirefoxBrowser();
-		}
-		if(browserName.equals("Opera"))
-		{
-			driver = openOperaBrowser();
-		}
+//		
+//		if(browserName.equals("Chrome"))
+//		{
+//			driver = openChromeBrowser();
+//		}
+//		if(browserName.equals("Firefox"))
+//		{
+//			driver = openFirefoxBrowser();
+//		}
+//		if(browserName.equals("Opera"))
+//		{
+//			driver = openOperaBrowser();
+//		}
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
