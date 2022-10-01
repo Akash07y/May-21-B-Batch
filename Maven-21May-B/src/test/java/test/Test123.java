@@ -20,21 +20,21 @@ import pages.RoomsPage;
 
 public class Test123 {
 
-	@BeforeSuite
-	public void beforeSuite() {
-		System.out.println("Before Suite - Test123");
-	}
-	
-	@BeforeTest
-	public void beforeTest() {
-		System.out.println("Before Test - Test123");
-	}
-	
-	@BeforeClass
-	public void launchBrowser() {
-		System.out.println("Before Class - Test123");
-	}
-	
+//	@BeforeSuite
+//	public void beforeSuite() {
+//		System.out.println("Before Suite - Test123");
+//	}
+//	
+//	@BeforeTest
+//	public void beforeTest() {
+//		System.out.println("Before Test - Test123");
+//	}
+//	
+//	@BeforeClass
+//	public void launchBrowser() {
+//		System.out.println("Before Class - Test123");
+//	}
+//	
 	@BeforeMethod
 	public void goToRoomsPage() {
 		System.out.println("Before Method - Test123");
