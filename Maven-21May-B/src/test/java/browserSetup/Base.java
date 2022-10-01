@@ -13,16 +13,16 @@ public class Base {
 		return driver ;
 	}
 	
-	public static WebDriver openFirefoxBrowser() {
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
-		return driver ;
-	}
+// 	public static WebDriver openFirefoxBrowser() {
+// 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\geckodriver.exe");
+// 		WebDriver driver = new FirefoxDriver();
+// 		return driver ;
+// 	}
 	
-	public static WebDriver openOperaBrowser() {
-		System.setProperty("webdriver.opera.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\operadriver.exe");
-		WebDriver driver = new OperaDriver();
-		return driver ;
-	}
+// 	public static WebDriver openOperaBrowser() {
+// 		System.setProperty("webdriver.opera.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\geckodriver-v0.31.0-win64\\operadriver.exe");
+// 		WebDriver driver = new OperaDriver();
+// 		return driver ;
+// 	}
 
 }
